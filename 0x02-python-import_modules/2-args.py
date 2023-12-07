@@ -10,5 +10,5 @@ elif counts == 1:
     print("1 arguments:")
 else:
     print("{} arguments:".format(counts))
-for i in range(counts):
+    for i in range(counts):
     print("{}: {}".format(i + 1, sys.argv[i + 1]))
